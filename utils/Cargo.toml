@@ -1,0 +1,12 @@
+[package]
+name = "utils"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38.0", features = ["full"] }
+wait-timeout = "0.2.0"
+regex = "1.10.5"
+serial_test = "3.1.1"
+rustls = "0.20" # Must use Version 0.20
+rustls-pemfile = "1.0.4"

@@ -1,0 +1,5 @@
+server/videos/
+cert/
+target/
+.idea/
+.DS_Store
